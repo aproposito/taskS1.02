@@ -33,4 +33,5 @@ El archivo `Nivel_1/Excercise_1.php` incluye:
 •	El output usa alguna etiqueta HTML para que se vea más claro en el navegador.
 
 📌 Pendiente
-•	Añadir el Ejercicio 3b (función calculadora que reciba dos números y una operación: suma/resta/multiplicación/división), se subirá en una nueva versión..
+•	Añadir el Ejercicio 3b (función calculadora que reciba dos números y una operación: suma/resta/multiplicación/división), se subirá en una nueva versión.
+RESUELTO, Ejercicio 3B añadido. Ejercicio más complejo que le resto!!!
