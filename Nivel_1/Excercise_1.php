@@ -52,6 +52,21 @@ echo "El doble de $m es " . ($m*2) . "<br><br>";
 echo "La suma de todas las variables es = " . ($x + $y + $n + $m) . "<br>";
 echo "El producto de todas las variables es = " . ($x * $y * $n * $m) . "<br><br>";
 
+//para hacer este ejercicio ha habido diálogo fluido con la IA ;-), pero diálogo//
+
+function calculadora($num1, $num2, $operation){
+
+return match($operation){
+    "Suma" => $num1 + $num2,
+    "Resta" => $num1 - $num2,
+    "Multiplicacion" => $num1 * $num2,
+    "Division" => $num2 !=0 ? $num1 / $num2 : "Error no se puede dividir por 0",
+    default => "La operación $operation no es válida."
+    };
+}
+echo calculadora(6, 0, "Division");
+
+
 echo "<br><br>" . "<hr></hr>"; 
 echo "<h2>Ejercicio 4</h2>";
 
